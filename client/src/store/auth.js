@@ -39,13 +39,24 @@ export default {
             }
 
             try {
-                let response = await axios.get('auth/me')
+                let response = await axios.get('auth/me', {
+                    headers: {
+                        'Authorization': 'Bearer ' + token
+                    }
+                })
 
                 commit('SET_USER', response.data)
             } catch (e) {
                 commit('SET_TOKEN', null)
                 commit('SET_USER', null)
             }
+        },
+
+        signOut({ commit }) {
+            return axios.post('auth/signout').then(() => {
+                commit('SET_TOKEN', null)
+                commit('SET_USER', null)
+            })
         }
     },
 }
