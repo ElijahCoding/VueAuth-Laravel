@@ -40,7 +40,8 @@
 
         methods: {
             async submit () {
-
+                let response = await axios.post('/auth/signin', this.form)
+                console.log(response.data)
             }
         }
     }
