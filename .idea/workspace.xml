@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2b7155-56f2-4dc8-bb69-e18aec40644a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/VueAuth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VueAuth.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/app/Http/Controllers/Auth/Otp/OtpController.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/app/Http/Controllers/Auth/Otp/OtpController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/database/migrations/2019_11_12_160012_add_google2fa_columns_to_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/database/migrations/2019_11_12_160012_add_google2fa_columns_to_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +169,7 @@
       <workItem from="1573307614416" duration="1000" />
       <workItem from="1573544152326" duration="21000" />
       <workItem from="1573544191070" duration="4000" />
-      <workItem from="1573574588168" duration="1401000" />
+      <workItem from="1573574588168" duration="1686000" />
     </task>
     <servers />
   </component>

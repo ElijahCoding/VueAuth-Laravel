@@ -21,6 +21,12 @@ class OtpController extends Controller
             'google2fa_secret' => $secret = Google2FA::generateSecretKey(),
         ]);
 
-        dd($secret);
+        return response(
+            Google2FA::getQRCodeInline(
+                'soft valley',
+                $user->email,
+                $user->google2fa_secret
+            )
+        );
     }
 }
