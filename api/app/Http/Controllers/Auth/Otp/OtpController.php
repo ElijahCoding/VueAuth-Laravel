@@ -29,4 +29,15 @@ class OtpController extends Controller
             )
         );
     }
+
+    public function store(Request $request)
+    {
+        $this->validate($request, [
+            'opt' => 'required'
+        ]);
+
+        if () {
+            
+        }
+    }
 }

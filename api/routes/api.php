@@ -7,4 +7,6 @@ Route::group(['prefix' => 'auth', 'namespace' => 'Auth'], function () {
     Route::get('me', 'MeController');
 
     Route::get('otp', 'Otp\OtpController@index');
+
+    Route::post('otp', 'Otp\OtpController@store');
 });
