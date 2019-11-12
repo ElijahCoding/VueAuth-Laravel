@@ -33,11 +33,17 @@ class OtpController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'opt' => 'required'
+            'otp' => 'required',
         ]);
 
-        if () {
-            
+        $user = $request->user();
+
+        if (!Google2FA::verifyKey($user->google2fa_secret, $request->otp)) {
+            return response(null, 401);
         }
+
+        $user->update([
+            'google2fa_enabled' => true,
+        ]);
     }
 }
