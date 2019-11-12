@@ -7,8 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/bacon/bacon-qr-code" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/barryvdh/laravel-cors" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/dasprid/enum" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/dnoegel/php-xdg-base-dir" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/doctrine/instantiator" />
@@ -37,6 +39,7 @@
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/nunomaduro/collision" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/paragonie/constant_time_encoding" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/paragonie/random_compat" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/phar-io/manifest" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/phar-io/version" />
@@ -51,6 +54,9 @@
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/phpunit/php-timer" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/phpunit/php-token-stream" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/pragmarx/google2fa" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/pragmarx/google2fa-laravel" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/pragmarx/google2fa-qrcode" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/simple-cache" />

@@ -15,7 +15,7 @@ class AddGoogle2faColumnsToUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->boolean('google2fa_enabled')->default(false);
-            $table->boolean('google2fa_secret')->nullable();
+            $table->string('google2fa_secret')->nullable();
         });
     }
 
@@ -27,7 +27,7 @@ class AddGoogle2faColumnsToUsersTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropColumns('google2fa_enabled', 'google2fa_secret');
+            $table->dropColumn('google2fa_enabled', 'google2fa_secret');
         });
     }
 }
