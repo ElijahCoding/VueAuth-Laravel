@@ -1,15 +1,14 @@
 <template>
-    <div>
-        Dashboard
-    </div>
+  <div>
+    Dashboard
+  </div>
 </template>
 
 <script>
-
-    export default {
-        name: 'dashboard',
-        components: {
-
-        }
+  export default {
+    name: 'dashboard',
+    components: {
+      //
     }
+  }
 </script>

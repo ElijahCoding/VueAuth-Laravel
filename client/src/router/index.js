@@ -3,7 +3,9 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import SignIn from '../views/SignIn.vue'
 import Dashboard from '../views/Dashboard.vue'
-import store from '@/store'
+import Settings from '../views/Settings.vue'
+import OtpDisable from '../views/otp/OtpDisable.vue'
+import OtpEnable from '../views/otp/OtpEnable.vue'
 
 Vue.use(VueRouter)
 
@@ -21,15 +23,25 @@ const routes = [
   {
     path: '/dashboard',
     name: 'dashboard',
-    component: Dashboard,
-    beforeEnter: (to, from ,next) => {
-      if (!store.getters['auth/authenticated']) {
-        return next({
-          name: 'signin'
-        })
-      }
-      next()
-    }
+    component: Dashboard
+  },
+
+  {
+    path: '/settings',
+    name: 'settings',
+    component: Settings,
+  },
+
+  {
+    path: '/otp/enable',
+    name: 'otp-enable',
+    component: OtpEnable
+  },
+
+  {
+    path: '/otp/disable',
+    name: 'otp-disable',
+    component: OtpDisable
   }
 ]
 

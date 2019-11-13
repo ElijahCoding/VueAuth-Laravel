@@ -6,9 +6,9 @@ import axios from 'axios'
 
 require('@/store/subscriber')
 
-axios.defaults.baseURL = 'http://127.0.0.1:8000/api'
-
 Vue.config.productionTip = false
+
+axios.defaults.baseURL = 'http://vue-2fa.test:8000/api'
 
 store.dispatch('auth/attempt', localStorage.getItem('token')).then(() => {
   new Vue({

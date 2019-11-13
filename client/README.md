@@ -1,4 +1,4 @@
-# client
+# vue-auth
 
 ## Project setup
 ```

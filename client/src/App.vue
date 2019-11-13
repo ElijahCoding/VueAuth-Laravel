@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <TheNavigation />
     <router-view/>
   </div>
@@ -11,6 +11,6 @@
   export default {
     components: {
       TheNavigation
-    }
+    } 
   }
 </script>

@@ -1,5 +1,5 @@
-import store from '@/store'
 import axios from 'axios'
+import store from '@/store'
 
 store.subscribe((mutation) => {
     switch (mutation.type) {
@@ -11,6 +11,7 @@ store.subscribe((mutation) => {
                 axios.defaults.headers.common['Authorization'] = null
                 localStorage.removeItem('token')
             }
-        break;
+            
+            break;
     }
 })
